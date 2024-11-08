@@ -1,0 +1,8 @@
+# Ignorar arquivos de dados
+*.parquet
+
+# Ignorar arquivos do modelo e outros arquivos grandes ou sensíveis
+model/
+.venv/
+*.h5
+__pycache__/
